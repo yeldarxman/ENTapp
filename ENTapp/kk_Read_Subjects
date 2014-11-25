@@ -1,0 +1,70 @@
+{
+    "Subjects": [
+        {
+            "subjectName": "Математика",
+            "Topics": [
+                {
+                    "topicName" : "Topic 1"
+                },
+                {
+                    "topicName" : "Topic 2"
+                }
+            ]
+        },
+        {
+            "subjectName" : "Физика",
+            "Topics" : [
+                {
+                    "topicName" : "Topic 1"
+                },
+                {
+                    "topicName" : "Topic 2"
+                }
+            ]
+        },
+        {
+            "subjectName" : "Қазақ тiлi",
+            "Topics" : [
+                {
+                    "topicName" : "Topic 1"
+                },
+                {
+                    "topicName" : "Topic 2"
+                }
+            ]
+        },
+        {
+            "subjectName" : "Орыс тiлi",
+            "Topics" : [
+                {
+                    "topicName" : "Topic 1"
+                },
+                {
+                    "topicName" : "Topic 2"
+                }
+            ]
+        },
+        {
+            "subjectName" : "Ағылшын тiлi",
+            "Topics" : [
+                {
+                    "topicName" : "Topic 1"
+                },
+                {
+                    "topicName" : "Topic 2"
+                }
+            ]
+        },
+        {
+            "subjectName" : "Қазақстан тарихы",
+            "Topics" : [
+                {
+                    "topicName" : "Topic 1"
+                },
+                {
+                    "topicName" : "Topic 2"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+/* 
+  Localizable.strings
+  ENTapp
+
+  Created by Yeldar Merkaziyev on 21.06.13.
+  Copyright (c) 2013 Yeldar Merkaziyev. All rights reserved.
+  RUSSIAN VERSION
+*/
+
+//Tab bar items
+"Tests" = "Тесты";
+"Read" = "Читать";
+"More" = "Прочие";
+
+//TestsTableViewController
+"Math" = "Математика";
+"Kazakhstan history" = "История Казахстана";
+"Kazakh language" = "Казахский язык";
+"Russian language" = "Русский язык";
+"English language" = "Английский язык";
+"World history" = "Всемирная история";
+"Physics" = "Физика";
+"Chemistry" = "Химия";
+"Biology" = "Биология";
+"Geography" = "География";
+
+"Subjects" = "Предметы";
+
+//TestsTopicSelectionViewController
+"Topics" = "Темы";
+"Mixed" = "Смешанный";
+"Separate" = "Отдельный";
+
+//TestsTestSelectionViewController
+"Variants" = "Варианты";
+"Variant" = "Вариант";
+
+//TestsMainViewController
+"Done" = "Закончить";
+"Cancel" = "Отменить";
+"You haven't finished the test! If you quit, your current progress for this test will not be saved." = "Вы не закончили тест! Еслы вы выйдите, ваш результат за этот тест не сохранится.";
+"Your result for this test:" = "Ваш результат за этот тест:";
+"Correct - " = "Правильно - ";
+"Incorrect - " = "Неправильно - ";
+"Test ended!" = "Тест завершился!";
+"To quit press the \"done\" button." = "Чтобы выйти нажмите на кнопку \"Закончить\".";
+
+// MoreTableViewController
+"Tap to purchase" = "Купить тесты";
+"Clear my progress" = "Сбросить мои результаты";
+"Change language" = "Поменять язык";
+"About us" = "О нас";
+"More" = "Прочие";
+"Are you sure that you want to reset your progress?" = "Вы действительно хотите сбросить ваши результаты?";
+"Yes" = "Да";
+"No" = "Нет";
+
+// ChangeLanguageViewController
+"Kazakh" = "Қазақша";
+"Russian" = "Русский";
+"Change language" = "Поменять язык";
+
+// PurchaseViewController
+"Thank You!" = "Спасибо!";
+"Thank you for purchasing tests!" = "Благодарим Вас за покупку тестов!";
+"Downloading" = "Идет загрузка...";
+"Could not connect to the server." = "Не удалось подключиться к серверу.";
+"Connection error!" = "Ошибка соединения!";
+

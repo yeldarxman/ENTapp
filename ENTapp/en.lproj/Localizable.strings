@@ -1,0 +1,68 @@
+/* 
+  Localizable.strings
+ 
+  ENTapp
+
+  Created by Yeldar Merkaziyev on 21.06.13.
+  Copyright (c) 2013 Yeldar Merkaziyev. All rights reserved.
+*/
+
+//Tab bar items
+"Tests" = "Tests";
+"Read" = "Read";
+"More" = "More";
+
+//TestsTableViewController
+"Math" = "Mathematics";
+"Kazakhstan history" = "Kazakhstan history";
+"Kazakh language" = "Kazakh language";
+"Russian language" = "Russian language";
+"English language" = "English language";
+"World history" = "World history";
+"Physics" = "Physics";
+"Chemistry" = "Chemistry";
+"Biology" = "Biology";
+"Geography" = "Geography";
+
+"Subjects" = "Subjects";
+
+//TestsTopicSelectionViewController
+"Topics" = "Topics";
+"Mixed" = "Mixed";
+"Separate" = "Separate";
+
+//TestsTestSelectionViewController
+"Variants" = "Variants";
+"Variant" = "Variant";
+
+//TestsMainViewController
+"Done" = "Done";
+"Cancel" = "Cancel";
+"You haven't finished the test! If you quit, your current progress for this test will not be saved." = "You haven't finished the test! If you quit, your current progress for this test will not be saved.";
+"Your result for this test:" = "Your result for this test:";
+"Correct - " = "Correct - ";
+"Incorrect - " = "Incorrect - ";
+"Test ended!" = "Test ended!";
+"To quit press the \"done\" button." = "To quit press the \"done\" button.";
+
+// MoreTableViewController
+"Tap to purchase" = "Tap to purchase";
+"Clear my progress" = "Clear my progress";
+"Change language" = "Change language";
+"About us" = "About us";
+"More" = "More";
+"Are you sure that you want to reset your progress?" = "Are you sure that you want to reset your progress?";
+"Yes" = "Yes";
+"No" = "No";
+
+// ChangeLanguageViewController
+"Kazakh" = "Қазақша";
+"Russian" = "Русский";
+"Change language" = "Change language";
+
+// PurchaseViewController
+"Thank You!" = "Thank You!";
+"Thank you for purchasing tests!" = "Thank you for purchasing tests!";
+"Downloading" = "Downloading";
+"Could not connect to the server." = "Could not connect to the server.";
+"Connection error!" = "Connection error!";

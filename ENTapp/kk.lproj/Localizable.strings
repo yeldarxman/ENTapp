@@ -1,0 +1,69 @@
+/* 
+  Localizable.strings
+ 
+  ENTapp
+
+  Created by Yeldar Merkaziyev on 21.06.13.
+  Copyright (c) 2013 Yeldar Merkaziyev. All rights reserved.
+  KAZAKH VERSION
+*/
+
+//Tab bar items
+"Tests" = "Тесттер";
+"Read" = "Оқу";
+"More" = "Қосымша";
+
+//TestsTableViewController
+"Math" = "Математика";
+"Kazakhstan history" = "Қазақстан тарихы";
+"Kazakh language" = "Қазақ тiлi";
+"Russian language" = "Орыс тiлi";
+"English language" = "Ағылшын тiлi";
+"World history" = "Дүниежүзi тарихы";
+"Physics" = "Физика";
+"Chemistry" = "Химия";
+"Biology" = "Биология";
+"Geography" = "География";
+
+"Subjects" = "Пәндер";
+
+//TestsTopicSelectionViewController
+"Topics" = "Тақырыптар";
+"Mixed" = "Аралас";
+"Separate" = "Жеке";
+
+//TestsTestSelectionViewController
+"Variants" = "Нұсқалар";
+"Variant" = "Нұсқа";
+
+//TestsMainViewController
+"Done" = "Бiтiру";
+"Cancel" = "Болдырмау";
+"You haven't finished the test! If you quit, your current progress for this test will not be saved." = "Сiз тесттi аяқтамадыңыз! Егер тесттен шыгатын болсаңыз, сiздiң бұл тесттегi нәтижеңiз сақталмайды.";
+"Your result for this test:" = "Сiздiң бұл тесттегi нәтижеңiз:";
+"Correct - " = "Дұрыс - ";
+"Incorrect - " = "Қате - ";
+"Test ended!" = "Тест аяқталды!";
+"To quit press the \"done\" button." = "Тесттен шығу үшiн \"Бiтiру\" батырмасын басыңыз.";
+
+// MoreTableViewController
+"Tap to purchase" = "Тесттердi сатып алу";
+"Clear my progress" = "Нәтижелерiмдi жаңарту";
+"Change language" = "Тiлдi ауыстыру";
+"About us" = "Бiз жайлы";
+"More" = "Қосымша";
+"Are you sure that you want to reset your progress?" = "Сiз шынында өз нәтижелерiңiздi жаңартқыңыз келедi ме?";
+"Yes" = "Иә";
+"No" = "Жоқ";
+
+// ChangeLanguageViewController
+"Kazakh" = "Қазақша";
+"Russian" = "Русский";
+"Change language" = "Тiлдi ауыстыру";
+
+// PurchaseViewController
+"Thank You!" = "Рахмет!";
+"Thank you for purchasing tests!" = "Тесттердi сатып алғаныңыз үшiн алғысымызды бiлдiремiз!";
+"Downloading" = "Жүктелуде...";
+"Could not connect to the server." = "Сервермен байланыс құру мүмкiн болмады.";
+"Connection error!" = "Байланыс құру қатесi!";

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Subject" representedClassName="Subject" syncable="YES">
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subjectName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="consistsOf" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Test" inverseName="isInsideOf" inverseEntity="Test" syncable="YES"/>
+    </entity>
+    <entity name="Test" representedClassName="Test" parentEntity="Subject" syncable="YES">
+        <attribute name="correctAnswers" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="testId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="testName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="variantName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wrongAnswers" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="isInsideOf" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Subject" inverseName="consistsOf" inverseEntity="Subject" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Subject" positionX="-443" positionY="891" width="128" height="88"/>
+        <element name="Test" positionX="-765" positionY="846" width="128" height="133"/>
+    </elements>
+</model>

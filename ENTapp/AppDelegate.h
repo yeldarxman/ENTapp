@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LocalizationSystem.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

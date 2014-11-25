@@ -1,0 +1,70 @@
+{
+    "Subjects": [
+        {
+            "subjectName": "Математика",
+            "Topics": [
+                {
+                    "topicName" : "Topic 1"
+                },
+                {
+                    "topicName" : "Topic 2"
+                }
+            ]
+        },
+        {
+            "subjectName" : "Физика",
+            "Topics" : [
+                {
+                    "topicName" : "Topic 1"
+                },
+                {
+                    "topicName" : "Topic 2"
+                }
+            ]
+        },
+        {
+            "subjectName" : "Казахский язык",
+            "Topics" : [
+                {
+                    "topicName" : "Topic 1"
+                },
+                {
+                    "topicName" : "Topic 2"
+                }
+            ]
+        },
+        {
+            "subjectName" : "Русский язык",
+            "Topics" : [
+                {
+                    "topicName" : "Topic 1"
+                },
+                {
+                    "topicName" : "Topic 2"
+                }
+            ]
+        },
+        {
+            "subjectName" : "Английский язык",
+            "Topics" : [
+                {
+                    "topicName" : "Topic 1"
+                },
+                {
+                    "topicName" : "Topic 2"
+                }
+            ]
+        },
+        {
+            "subjectName" : "История Казахстана",
+            "Topics" : [
+                {
+                    "topicName" : "Topic 1"
+                },
+                {
+                    "topicName" : "Topic 2"
+                }
+            ]
+        }
+    ]
+}

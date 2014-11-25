@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Tests Table View Controller - Test-->
+        <scene sceneID="xFE-vc-r9v">
+            <objects>
+                <tableViewController id="xIy-oW-BE6" customClass="TestsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="75" sectionHeaderHeight="22" sectionFooterHeight="22" id="LfL-L6-hdl">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TestsTableViewCell" rowHeight="75" id="rg7-qr-btq" customClass="TestsTableViewCell">
+                                <rect key="frame" x="0.0" y="22" width="320" height="75"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="74"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="История Казахстана" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLM-ul-kSk">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <progressView opaque="NO" contentMode="scaleToFill" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6C2-Ep-fPs"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="100%" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqz-qy-Zrl">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="42" id="Kjl-yl-wQZ"/>
+                                                <constraint firstAttribute="height" constant="21" id="ykT-DD-QJX"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="6C2-Ep-fPs" secondAttribute="bottom" constant="21" id="1KP-Cg-ekk"/>
+                                    <constraint firstItem="6C2-Ep-fPs" firstAttribute="leading" secondItem="rg7-qr-btq" secondAttribute="leading" constant="20" type="default" id="4NT-vi-uCy"/>
+                                    <constraint firstItem="wLM-ul-kSk" firstAttribute="top" secondItem="rg7-qr-btq" secondAttribute="top" constant="14" id="9cP-yM-G7f"/>
+                                    <constraint firstItem="bqz-qy-Zrl" firstAttribute="trailing" secondItem="rg7-qr-btq" secondAttribute="trailing" type="default" id="DtM-Oz-aCp"/>
+                                    <constraint firstItem="wLM-ul-kSk" firstAttribute="trailing" secondItem="6C2-Ep-fPs" secondAttribute="trailing" type="default" id="cJk-dy-I2S"/>
+                                    <constraint firstItem="bqz-qy-Zrl" firstAttribute="top" secondItem="rg7-qr-btq" secondAttribute="top" constant="37" id="inE-yl-rgH"/>
+                                    <constraint firstItem="bqz-qy-Zrl" firstAttribute="leading" secondItem="6C2-Ep-fPs" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="inp-kL-r83"/>
+                                    <constraint firstItem="wLM-ul-kSk" firstAttribute="leading" secondItem="rg7-qr-btq" secondAttribute="leading" constant="20" type="default" id="kCH-Yk-hk9"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="percentageLabel" destination="bqz-qy-Zrl" id="hxD-Ie-mhA"/>
+                                    <outlet property="progressView" destination="6C2-Ep-fPs" id="Qns-X7-nF6"/>
+                                    <outlet property="titleLabel" destination="wLM-ul-kSk" id="TAj-EJ-AvA"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="xIy-oW-BE6" id="2F4-e9-K84"/>
+                            <outlet property="delegate" destination="xIy-oW-BE6" id="1Sd-CP-PFd"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Test" id="S7K-fr-tFU"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vTE-HR-h8b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="669" y="27"/>
+        </scene>
+        <!--View Controller - Other-->
+        <scene sceneID="fA4-Xs-tRf">
+            <objects>
+                <viewController id="oFr-lm-mQo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wY5-JY-lJ6">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Other" id="ndw-tl-hif"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BIB-Oq-ms5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="669" y="1649"/>
+        </scene>
+        <!--Table View Controller - Read-->
+        <scene sceneID="Nvw-1p-Njg">
+            <objects>
+                <tableViewController id="bOG-Jy-oxp" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="qgr-A0-K4O">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Qv5-l9-gXI">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="bOG-Jy-oxp" id="1Eu-pl-V7u"/>
+                            <outlet property="delegate" destination="bOG-Jy-oxp" id="Zxt-1S-ksW"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Read" id="QPw-cH-Hny"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXI-vz-0H4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="669" y="875"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="15">
+            <objects>
+                <tabBarController id="4" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="bOG-Jy-oxp" kind="relationship" relationship="viewControllers" id="gWx-qZ-27c"/>
+                        <segue destination="oFr-lm-mQo" kind="relationship" relationship="viewControllers" id="ARZ-GN-Qv0"/>
+                        <segue destination="xIy-oW-BE6" kind="relationship" relationship="viewControllers" id="KF0-O0-ouR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-244" y="802"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="TestsTableViewCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TestsTableViewCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="percentageLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="progressView" candidateClass="UIProgressView"/>
+                <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="TestsTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TestsTableViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
